@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section  class =" sub-header">
+       <nav>
+        <a href="index.html"><img src="logo2.png" > </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#">REGISTER</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                
+            </ul>
+
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()" ></i>
+       </nav>
+       <h1>Our Certifiacates And Online Programs</h1>
+
+    </section>
+    
+    <!----------blog content------------>
+   <section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="eduford_img\certificate.jpg" alt="">
+            <h1>Our Certifiacates And Online Programs</h1>
+            <p>🎓 Looking to enhance your skills or pursue new opportunities? 
+                Dive into our certificate and online programs designed for the modern learner! </p>
+                <br>
+                <p>📜 Certificate Programs:  <br> 1️⃣ Elevate your expertise with our specialized certificate programs tailored to meet the demands of today's industries.
+                     <br>2️⃣ Our certificate offerings range from project management to data analytics, ensuring you gain valuable skills that open doors to new career paths. 
+                    <br>3️⃣ Led by industry professionals and academic experts, our certificate programs provide hands-on training and practical knowledge that you can immediately apply in the workforce.</p>
+                    <br>
+                    <p>💻 Online Programs: 1️⃣ Access quality education from anywhere with our flexible online programs that cater to your busy schedule. 
+                        <br> 2️⃣ Engage in interactive coursework, collaborate with peers virtually, and benefit from the guidance of our experienced instructors in a digital learning environment. 
+                        <br>3️⃣ Our online programs offer the same level of academic rigor and support as our on-campus courses, empowering you to earn a degree or certificate on your terms.</p>
+                        <br>
+                        <p>🚀 Whether you're looking to upskill, reskill, or explore new horizons, our certificate and online programs provide a gateway to success in a rapidly changing world. Embrace the future of learning with us and unlock endless possibilities for your personal and professional growth! </p>
+                       
+                       
+                        <div class="comment-box">
+                            <h3>Leave a Message</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter your Name">
+                                <input type="email" placeholder="Enter your Email">
+                                <textarea placeholder="Write your message"></textarea>
+                                <button  type= "submit" class="hero-btn red-btn"> SUBMIT</button>
+                            </form>
+
+                        </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post categories</h3>
+                <div>
+            <span> Engineering and Technology</span>
+            <span>100</span>
+        </div> 
+        <div>
+            <span> Health Sciences</span>
+            <span>200</span>
+            </div>
+            <div>
+            <span>  Information Technology</span>
+            <span>170</span>
+        </div>
+        <div>
+            <span> Arts and Humanities</span>
+            <span>500</span>
+        </div>
+        <div>
+            <span> Science and Mathematics</span>
+            <span>80</span>
+        </div>
+        <div>
+            <span> Social Sciences</span>
+            <span>280</span>
+        </div>
+
+
+        </div>
+    </div>
+   </section>
+    
+
+
+   
+                <
+       
+       <!----------footer------------>
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Mia University is a leading institution in its field. Located in London, our campus offers a unique blend of history, culture, and academic achievements.</p>
+        <p>�� 2022 Mia University. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+       </section>
+    
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right="0";
+        
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px";
+        }
+ 
+    </script>
+    
+</body>
+</html>

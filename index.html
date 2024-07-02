@@ -5,34 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University website design</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 </head>
 <body>
     <section  class ="header">
        <nav>
-        <a href="index.html"><img src="eduford_img\logo.png" > </a>
-        <div class="nav-links">
+        <a href="index.html"><img src="logo2.png" > </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">COURSES</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">LOGIN</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="#">REGISTER</a></li>
-                <li><a href="">BLOG</a></li>
+                <li><a href="blog.html">BLOG</a></li>
                 
             </ul>
 
         </div>
+        <i class="fa fa-bars"onclick="showMenu()" ></i>
        </nav>
        <div class="text-box">
-        <h1>Welcome to Eduford University</h1>
-        <p>At Eduford University, we strive to create a world class education for our students. Our mission is to inspire, empower, and equip students with the knowledge, skills, and values they need to succeed in the 21st century.</p>
-        <button>Learn More</button>
+        <h1>Welcome to Mia University</h1>
+        <p>At Mia University, we strive to create a world class education for our students. Our mission is to inspire, empower, and equip students with the knowledge, skills, and values they need to succeed in the 21st century.</p>
+        <a href="about.html" class="hero-btn">Visit Us To Know More</a>
 
        </div>
 
     </section>
+    <!-----course----->
+    <section class="COURSES">
+        <h1> Courses We Offer</h1>
+        <p>Explore a diverse range of courses meticulously designed to cater to your academic interests and career aspirations. <br>Our esteemed faculty members are dedicated to providing you with a world-class education, empowering you to excel in your chosen field.</p>
+        <div class="row">
+            <div class="course-col">
+            
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Our Computer Science program offers a rigorous, comprehensive education that equips students with the necessary skills to pursue careers in the tech industry.</p>
+                <a href="" class="course-btn">Learn More</a>
+
+            </div>
+            <div class="course-col">
+                <h3>Master of Science in Computer Science</h3>
+                <p>Our Master of Science in Computer Science program offers a flexible, hands-on education that allows students to explore their interests and develop their own skills in the tech industry.</p>
+                <a href="" class="course-btn">Learn More</a>
+            
+            </div>
+            <div class="course-col">
+                <h3>PhD in Computer Science</h3>
+                <p>Our PhD in Computer Science program offers a highly specialized, research-focused education that allows students to develop their skills in the tech industry and contribute to the advancement of the field.</p>
+                <a href="" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-----------campus-->
+    <section class="campus">
+        <h1>Our GLOBAL Campus</h1>
+        <p>Mia University is a hub for innovation, excellence, and global collaboration. Our campus spans over 2,000 acres, providing students with the opportunity to experience the city's rich history, culture, and academic achievements.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="eduford_img\london.png" >
+                <div class="layer"></div>
+                <h3>LONDON</h3>
+                
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img\newyork.png" >
+                <div class="layer"></div>
+                <h3>NEW YORK</h3>
+                
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img\washington.png" >
+                <div class="layer"></div>
+                <h3>WASHINGTON</h3>
+                
+            </div>
+           
+
+        </div>
+
+    </section>
+    <!----------facilities------------>
+    <section class="facilities">
+        <h1>Facilities & Services</h1>
+        <p>At  Mia University, we strive to provide a comprehensive and well-equipped campus for our students, faculty, and staff. Our facilities and services include:</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="eduford_img\library.png" >
+                <h3>World Class Library</h3>
+                <p>Our library offers a wealth of academic resources, including books, magazines, and e-books. We also have a state-of-the-art computer lab, allowing students to work on projects and research.</p>
+            </div>
+            <div class="facility-col">
+                <img src="eduford_img\basketball.png" >
+                <h3>Biggest Play ground</h3>
+                <p>Our basketball courts are the perfect place for students to practice their skills, socialize, and enjoy a great game. We also have a state-of-the-art basketball equipment, such as hoops, nets, and hoop cleats.</p>
+
+             </div>
+             <div class="facility-col">
+                <img src="eduford_img\cafeteria.png" >
+                <h3>Healthy & Well-rounded Food</h3>
+                <p>Our cafeteria offers a variety of healthy, nutritious, and delicious food options, including breakfast, lunch, and dinner. We also have a state-of-the-art kitchen, allowing students to prepare their own meals.</p>
+                
+             </div>
+            </section>
+            <!----------testimonials------------>
+            <section class="testimonials">
+                <h1>What Our Students Say</h1>
+                <div class="row">
+                    <div class="testimonial-col">
+                        <img src="eduford_img\user2.jpg" >
+                        <div>
+                        <p>"I have always been fascinated by the world of computer science and I am thrilled to be part of Mia University. The teaching staff is knowledgeable, engaging, and  I am grateful for the opportunity to study with them and I am excited to continue exploring the field."</p>
+                        <h3>John Doe</h3>
+                         <i class="fa fa-star" ></i>
+                         <i class="fa fa-star" ></i>
+                         <i class="fa fa-star" ></i>
+                         <i class="fa fa-star" ></i>
+                         <i class="fa fa-star-o" ></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-col">
+                        <img src="eduford_img\user1.jpg" >
+                        <div>
+                        <p>"I am a sophomore studying computer science at Mia University. The facilities and services are excellent, and I am confident 
+                             that I will continue to recommend  Mia University to my friends and family."</p>
+                             <h3>Jane Smith</h3>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star-half-alt"></i>
+                            </div>
+                    </div>
+
+            </section>
+            <!----------footer------------>
+       <section class="contacts">
+        <h1>Contact Us</h1>
+        <p>For more information about Mia University, please contact our office </p>
+        <a href="" class="hero-btn"> contacts</a>
+        
+
+       </section>
+       <!----------footer------------>
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Mia University is a leading institution in its field. Located in London, our campus offers a unique blend of history, culture, and academic achievements.</p>
+        <p>�� 2022 Mia University. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+       </section>
+    
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right="0";
+        
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px";
+        }
+ 
+    </script>
     
 </body>
 </html>
